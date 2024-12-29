@@ -1,0 +1,14 @@
+.red{
+    color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+#seconddiv{
+    color: aqua;
+}
+#seconddiv{
+    background-color: violet;
+}
+/* here red and yellow are classes while seconddiv is an id
+write '.' before class and '#' before id

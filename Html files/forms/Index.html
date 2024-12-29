@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form to apply for web devlopment Course</h1>
+    <form action="Post">
+        <div>
+            <label for="Username">Enter your username</label>
+            <input type="text" id="username1" name="username" placeholder="enter your user name">
+            <select name="name" id="username">
+                <option value="debi">debi</option>
+                <option value="som">som</option>
+            </select>
+            <br>
+            <br>
+            <label for="Password">Enter Your Password</label>
+            <input type="password" id="Password" name="Password" placeholder="enter your password">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male"><!--radio is used to select one option-->
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"><!--checkbox is used to create an checkbox-->
+            <label for="subscribe">subscribe to newsletter</label>
+        </div>
+        <div>
+
+            <label for="comment">Enter your comment:</label>
+            <br><textarea name="comment" id="comment" cols="30" rows="4"><textarea>
+                <!--textarea is used to create a custom box in which we can write any comments-->
+        </div>
+        <div>
+            <select name="fruits" id="fruits"><!--select is used to select options from provided options-->
+                <option value="apple">apple</option>
+                    <!--option is used to create options for select tab-->
+                <option value="banana">banana</option>
+                <option value="cherry">cherry</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
